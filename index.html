@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 
-<body>
+<body class="bg-black">
+    <!-- ===============navbar section=============== -->
     <nav class="w-full left-0 top-0 absolute py-7">
-        <div class="container mx-auto">
+        <div class="container max-w-[1380px] mx-auto">
             <div class="lg:flex justify-between items-center">
                 <div class="">
                     <picture>
                         <a href="#home"><img src="./images/logo.png" alt="logo"></a>
                     </picture>
                 </div>
-                <menu class="lg:flex gap-x-14">
+                <menu class="hidden lg:flex gap-x-14">
                     <li>
                         <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
                             href="#">Home</a>
@@ -42,8 +43,45 @@
             </div>
         </div>
     </nav>
-    <section class="bg-bannerbg py-12">
-
+    <!-- ======================banner section================ -->
+    <section class="bg-bannerbg bg-no-repeat bg-cover bg-center pt-[200px] pb-[200px] xl:pt-[462px] xl:pb-[458px]">
+        <div class="container max-w-[1380px] mx-auto">
+            <div class="ps-5">
+                <h6 class="pb-9 font-opensans text-lg font-bold text-bannerclr ">explore the Nature Beauty</h6>
+                <h1 class="text-white font-opensans font-bold text-6xl leading-normal lg:text-8xl">Discover</h1>
+                <h2 class="text-white font-opensans font-bold text-4xl leading-normal lg:text-[88px]">Wonderful
+                    Indonesia
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- =================About section===================== -->
+    <section class="py-72">
+        <div class="container max-w-[1380px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 justify-center items-center">
+                <div class="">
+                    <picture>
+                        <img src="./images/about.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="">
+                    <h6 class="text-smheder font-opensans text-lg font-bold letter tracking-wider">EAST NUSA TENGGARA
+                    </h6>
+                    <h3 class="text-white font-opensans text-[64px] font-bold leading-normal">Have you enjoyed your
+                        holiday?</h3>
+                    <p class="text-white font-opensans text-sm font-semibold leading-8 uppercase pt-3 pb-16">You will be
+                        amazed
+                        if you take
+                        part in this sailing Komodo island tour package. So it is
+                        also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste
+                        the marine tourism. The beautiful waters of Komodo will make you meet many travelers from other
+                        countries.</p>
+                    <a href="#"
+                        class="text-smheder font-opensans text-lg font-bold letter tracking-wider uppercase">read
+                        more</a>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 

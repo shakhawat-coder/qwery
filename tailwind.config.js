@@ -8,6 +8,8 @@ module.exports = {
       },
       colors:{
         navcolour:"#ffffff99",
+        'bannerclr':"#FFC178",
+        'smheder':"#FBD784",
       },
       fontFamily:{
         'opensans': "'Open Sans', sans-serif;",
