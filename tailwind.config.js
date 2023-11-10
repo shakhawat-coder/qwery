@@ -16,7 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         'bannerbg': "url('./images/banner.jpg')",
-         'startbg': "url('./images/cta.png')",
+         'bromobg': "url('./images/hill.jpg')",
       },
     },
   },
