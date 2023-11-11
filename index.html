@@ -5,49 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qwery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body class="bg-black">
     <!-- ===============navbar section=============== -->
-    <nav class="w-full left-0 top-0 absolute py-7">
-        <div class="container max-w-[1380px] mx-auto">
-            <div class="lg:flex justify-between items-center">
-                <div class="">
-                    <picture>
-                        <a href="#home"><img src="./images/logo.png" alt="logo"></a>
-                    </picture>
+    <nav class="w-full left-0 top-0 absolute px-5 py-7 bg-smheder lg:bg-transparent overflow-hidden">
+        <div class="container max-w-[1320px] mx-auto">
+            <div class="flex lg:block justify-between ">
+                <div class="lg:flex justify-between items-center">
+                    <div class="">
+                        <picture>
+                            <a href="#home"><img src="./images/logo.png" alt="logo"></a>
+                        </picture>
+                    </div>
+                    <menu class="hidden lg:flex gap-x-14">
+                        <li>
+                            <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
+                                href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
+                                href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
+                                href="#">Information</a>
+                        </li>
+                        <li>
+                            <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
+                                href="#">Culture</a>
+                        </li>
+                        <li>
+                            <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
+                                href="#">Contact Us</a>
+                        </li>
+                    </menu>
                 </div>
-                <menu class="hidden lg:flex gap-x-14">
-                    <li>
-                        <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
-                            href="#">Home</a>
-                    </li>
-                    <li>
-                        <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
-                            href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
-                            href="#">Information</a>
-                    </li>
-                    <li>
-                        <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
-                            href="#">Culture</a>
-                    </li>
-                    <li>
-                        <a class="font-opensans text-lg font-semibold text-white hover:text-black transition-all duration-300"
-                            href="#">Contact Us</a>
-                    </li>
-                </menu>
+                <span class="menu_bar lg:hidden pt-1"><i class="text-white fa-solid fa-bars"></i></span>
             </div>
         </div>
     </nav>
     <!-- ======================banner section================ -->
-    <section class="bg-bannerbg bg-no-repeat bg-cover bg-center pt-[200px] pb-[200px] xl:pt-[462px] xl:pb-[458px]">
-        <div class="container max-w-[1380px] mx-auto">
+    <section class="bg-bannerbg bg-no-repeat bg-cover bg-center pt-[150px] pb-[150px] xl:pt-[462px] xl:pb-[458px]">
+        <div class="container max-w-[1320px] mx-auto">
             <div class="ps-5">
-                <h6 class="pb-9 font-opensans text-lg font-bold text-bannerclr ">explore the Nature Beauty</h6>
+                <h6 class="pb-9 font-opensans text-lg font-bold text-bannerclr uppercase ">explore the Nature Beauty
+                </h6>
                 <h1 class="text-white font-opensans font-bold text-6xl leading-normal lg:text-8xl">Discover</h1>
                 <h2 class="text-white font-opensans font-bold text-4xl leading-normal lg:text-[88px]">Wonderful
                     Indonesia
@@ -56,8 +63,8 @@
         </div>
     </section>
     <!-- =================About section===================== -->
-    <section class="py-72">
-        <div class="container max-w-[1380px] mx-auto">
+    <section class="px-5 py-28 xl:py-72">
+        <div class="container max-w-[1320px] mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center">
                 <div class="w-full">
                     <picture>
@@ -65,9 +72,11 @@
                     </picture>
                 </div>
                 <div class="">
-                    <h6 class="text-smheder font-opensans text-lg font-bold letter tracking-wider">EAST NUSA TENGGARA
+                    <h6 class="text-smheder font-opensans text-base lg:text-lg font-bold letter tracking-wider">EAST
+                        NUSA TENGGARA
                     </h6>
-                    <h3 class="text-white font-opensans text-[64px] font-bold leading-normal">Have you enjoyed your
+                    <h3 class="text-white font-opensans text-4xl xl:text-[64px] font-bold leading-normal">Have you
+                        enjoyed your
                         holiday?</h3>
                     <p class="text-white font-opensans text-sm font-semibold leading-8 uppercase pt-3 pb-16">You will be
                         amazed
@@ -85,11 +94,12 @@
     </section>
     <!-- =================bromo section===================== -->
     <section>
-        <div class="container max-w-[1380px] mx-auto">
-            <div class="bg-bromobg bg-no-repeat bg-cover bg-center">
-                <div class="text-center pt-[560px] pb-8 lg:px-[194px]">
+        <div class="container max-w-[1320px] mx-auto">
+            <div class="bg-bromobg bg-no-repeat bg-cover bg-center px-5">
+                <div class="text-center pt-20 xl:pt-[560px] pb-8 md:px-[194px]">
                     <h6 class="text-smheder font-opensans text-lg font-bold letter tracking-wider">BROMO</h6>
-                    <h3 class="text-white font-opensans text-[64px] font-bold leading-normal">Steady your steps, we will
+                    <h3 class="text-white font-opensans text-4xl xl:text-[64px] font-bold leading-normal">Steady your
+                        steps, we will
                         climb together!</h3>
                     <p class="text-white font-opensans text-sm font-normal leading-8 uppercase pt-3 pb-16">Enjoying the
                         vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the
@@ -104,13 +114,15 @@
         </div>
     </section>
     <!-- =================culture section===================== -->
-    <section class="py-72">
-        <div class="container max-w-[1380px] mx-auto">
+    <section class="px-5 py-28 xl:py-72">
+        <div class="container max-w-[1320px] mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center">
-                <div class="">
+                <div class="order-2">
                     <h6 class="text-smheder font-opensans text-lg font-bold letter tracking-wider">INDONESIAN CULTURE
                     </h6>
-                    <h3 class="text-white font-opensans text-[64px] font-bold leading-normal">Our culture here is very
+                    <h3 class="text-white font-opensans text-4xl xl:text-[64px] font-bold leading-normal">Our culture
+                        here is
+                        very
                         friendly to people</h3>
                     <p class="text-white font-opensans text-sm font-normal leading-8 uppercase pt-3 pb-16">known for his
                         politeness, manners and gentleness. This becomes a characteristic when they mingle with other
@@ -119,7 +131,7 @@
                         class="text-smheder font-opensans text-lg font-bold letter tracking-wider uppercase">read
                         more</a>
                 </div>
-                <div class="w-full">
+                <div class="w-full order-1">
                     <picture>
                         <img class="w-full" src="./images/culture.jpg" alt="">
                     </picture>
@@ -128,27 +140,29 @@
         </div>
     </section>
     <!-- ===================footer section============== -->
-    <footer>
-        <div class="container max-w-[1380px] mx-auto">
-            <div class="flex justify-between mb-16">
-                <div class="">
+    <footer class="px-5">
+        <div class="container max-w-[1320px] mx-auto">
+            <div class="sm:flex justify-between items-center mb-16">
+                <div class="mb-5 sm:mb-0">
                     <picture>
                         <img src="./images/logo.png" alt="">
                     </picture>
                 </div>
-                <div class="">
+                <div class="flex flex-col sm:block">
                     <span class="text-white font-normal text-2xl font-opensans  ">Ready to explore?</span>
-                    <a class="ms-5 py-5 px-16 bg-smheder rounded-md font-opensans text-lg font-bold" href="">Get
+                    <a class="mt-5 sm:ms-5 py-5 px-16 w-[228px] bg-smheder rounded-md font-opensans text-lg font-bold"
+                        href="">Get
                         started</a>
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div class="">
-                    <h4 class="text-white font-opensans font-normal text-4xl w-[405px]">Let's go on vacation, Make your
+                    <h4 class="text-white font-opensans font-normal text-4xl md:w-[405px]">Let's go on vacation, Make
+                        your
                         day</h4>
                     <a href="">Terms & Conditions</a>
                 </div>
-                <div class="grid grid-cols-3">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-y-5">
                     <div class="">
                         <h6 class="text-smheder font-opensans text-xl font-bold letter tracking-wider pb-4">Services
                         </h6>
@@ -209,6 +223,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
